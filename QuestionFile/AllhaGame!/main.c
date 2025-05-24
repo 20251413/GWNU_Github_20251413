@@ -331,6 +331,11 @@ void showIntro() {
             Sleep(500);
         }
     }
+    else {
+        system("cls");
+        printf("주어진 숫자를 입력하라구 이 바부야!");
+        Sleep(500);
+    }
 }
 
 int main() {

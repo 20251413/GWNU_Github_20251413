@@ -12,17 +12,17 @@
 <br>
 <br>
 
-## 🌱 현재 공부하고 있는 것
-- 알고리즘 문제 풀이
-- 클린 코드 작성법
-- 클라우드 서비스 기초
+## 🌱 나는 원한다.
+- 로직을 짤수 있는 능력!
+- 무엇이 필요한지 바로 떠오르기!
+- 수업 과제를 성공적으로 만들기!
 
 <br>
 
-## 📫 연락처
-<a href="mailto:[내 이메일 주소]">
+## 📫 
+<a href="mailto:[t01071435493@gmail.com]">
   <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white">
 </a>
-<a href="[내 블로그 주소]">
-  <img src="https://img.shields.io/badge/Blog-1DB954?style=for-the-badge&logo=blogger&logoColor=white">
+<a href="mailto:[potato1sgood@gwnu.ac.kr]">
+  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white">
 </a>

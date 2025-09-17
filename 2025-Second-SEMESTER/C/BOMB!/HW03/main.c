@@ -22,14 +22,19 @@ void printBomb(int isExploded)
         printf("\x1b[B\x1b[7D^^^^^^^");
     }
     else
-        printf("(  b  )");
+        printf("(  b  )"); 
 }
 
 int main()
 {
     // 여기부터 코드를 작성하세요----------------------   
+    
+
+    moveCursor(0, 0);
+    printBomb(0);
 
 
+    int 과제;
 
 
     // 여기까지 코드를 작성하세요----------------------   

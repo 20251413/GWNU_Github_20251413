@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="" method="">
+        <label for="id">아이디&nbsp;&nbsp;&nbsp;&nbsp;:</label> <!--&nbsp; -> 줄바꿈 없는 공백문자-->
+        <input type="text" id="username" name="uname">
+        <br>
+        <label for="pwd">비밀번호:</label>
+        <input type="password" id="userpassword" name="pwd">
+        <br>
+        <button type="submit">로그인</button>
+    </form>
+    <br>
+
+    <!--get 에시-->
+    <form action="process.jsp" method="get">
+        <label for="id">이름:</label>
+        <input type="text" name="name">
+        <br>
+        <label for="pwd">나이:</label>
+        <input type="text" name="age">
+        <br>
+        <button type="submit">Get 전송</button>
+    </form>
+    <br>
+
+    <!--post 예시-->
+    <form action="process.jsp" method="post">
+        <label for="id">아이디&nbsp;&nbsp;&nbsp;&nbsp;: <input type="text" id="username" name="username"></label>
+        <br>
+        <label for="pwd">비밀번호: <input type="password" id="userpassword" name="pwd"></label>
+        <br>
+        <button type="submit">POST 전송</button>
+    </form>
+</body>
+</html>

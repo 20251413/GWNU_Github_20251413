@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>뷰티마켓- 화장품 쇼핑몰</title>
+</head>
+<body>
+    <header>
+        <h1>💋 뷰티마켓</h1>
+        <p>아름다움을 위한 당신의 선택</p>
+    </header>
+        <nav>
+            <p>
+            <a href="#products">상품</a>
+            <a href="#events">이벤트</a>
+            <a href="#review">리뷰</a>
+            <a href="#contact">문의</a>
+            </p>
+        </nav>
+
+    <main>
+        <section id="products">
+            <h2>🌸 인기 상품</h2>
+            <article>
+            <h3>로맨틱 립스틱</h3>
+            <img src="개구리커밋13.jpg" width="350px" height="350px" alt="립스틱 이미지">
+            <p><strong>₩15,000</strong></p>
+            <p>선명한 발색과 부드러운 발림성을 자랑하는 립스틱</p>
+            </article>
+            <article>
+            <h3>쿠션 파운데이션</h3>
+            <img src="개구리커밋24.jpg" width="350px" height="350px" alt="쿠션 이미지">
+            <p><strong>₩22,000</strong></p>
+            <p>자연스러운 커버력과 광채 피부 표현</p>
+            </article>
+            <article>
+            <h3>촉촉 스킨로션</h3>
+            <img src="개구리커밋29.jpg" width="350px" height="350px" alt="스킨로션 이미지">
+            <p><strong>₩18,000</strong></p>
+            <p>피부 속까지 수분을 채워주는 고보습 로션</p>
+            </article>
+        </section>
+
+        <aside>
+            <h2>💡 화장품 꿀팁 & 추천</h2>
+            <ul>
+                <li>여름철 유분기 잡는 기초 화장법</li>
+                <li>자외선 차단제는 꼭 2시간마다!</li>
+                <li><strong>베스트 셀러:</strong> 쿠션 파운데이션</li>
+                <li><a href="https://beautyblog.example.com" target="_blank">뷰티 블로그 바로가기</a></li>
+            </ul>
+        </aside>
+
+        <section id="events">
+            <h2>🎁 이벤트 안내</h2>
+            <ul>
+                <li>립스틱 1+1 이벤트 (~6월 30일까지)</li>
+                <li>5만원 이상 구매 시 무료배송</li>
+                <li>신규 회원 10% 할인 쿠폰 지급</li>
+            </ul>
+        </section>
+
+        <section id="review">
+            <h2>📝 고객 리뷰</h2>
+            <article>
+            <h3>👩 김소연</h3>
+            <p><em>"립스틱 컬러 너무 예뻐요! 데일리템으로 딱이에요!"</em></p>
+            </article>
+            <article>
+            <h3>👩 이은지</h3>
+            <p><em>"쿠션이 촉촉하고 밀착력이 좋아요. 재구매할 예정입니다."</em></p>
+            </article>
+        </section>
+
+        <section id="contact">
+            <h2>📬 문의하기</h2>
+            <form action="https://httpbin.org/post" method="POST">
+                <fieldset>
+                <legend>기본 정보</legend>
+                <label for="username">이&nbsp;&nbsp;&nbsp;름:
+                <input type="text" id="username" name="username">
+                </label><br>
+                <label for="email">이메일:
+                <input type="email" id="email" name="email">
+                </label><br><br>
+                </fieldset>
+                <fieldset>
+                <legend>질문 사항</legend>
+                <label for="category">문의 유형:
+                <select id="category" name="category">
+                    <option value="product">상품 문의</option>
+                    <option value="order">주문/배송</option>
+                    <option value="etc">기타</option>
+                </select>
+                </label><br>
+                <label for="message">질문 내용:<br>
+                <textarea id="message" name="message" rows="4" cols="40"></textarea>
+                </label><br>
+                </fieldset>
+                <input type="submit" value="보내기">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 CMB BeautyMarket. All rights reserved.</p>
+        <address>고객센터: support@CMBbeautymarket.com</address>
+    </footer>
+</body>
+</html>

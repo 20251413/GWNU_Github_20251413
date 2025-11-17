@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://httpbin.org/post" method="POST" enctype="multipart/form-data">
+<fieldset>
+<legend>기본 정보</legend>
+<label>이름: <input type="text" name="name" required></label><br>
+<label>생년월일: <input type="date" name="birth" required></label><br>
+<label>연락처: <input type="tel" name="phone" required></label><br>
+<label>사진 업로드: <input type="file" name="photo" accept="image/*"></label><br>
+</fieldset>
+<fieldset>
+<legend>학력 정보</legend>
+<table border="1">
+<tr> <th>학교명</th> <th>전공</th> <th>졸업년도</th> </tr>
+<tr>
+<td><input type="text" name="school1" required></td>
+<td><input type="text" name="major1" required></td>
+<td><input type="text" name="grad_year1" required></td>
+</tr>
+<tr>
+<td><input type="text" name="school2"></td>
+<td><input type="text" name="major2"></td>
+<td><input type="text" name="grad_year2"></td>
+</tr>
+</table>
+</fieldset>
+<fieldset>
+<legend>자기소개</legend>
+<textarea name="introduction" rows="5" cols="60" placeholder="자기소개를 입력하세요."></textarea>
+</fieldset>
+<input type="submit" value="이력서 제출">
+</form>
+</body>
+</html>

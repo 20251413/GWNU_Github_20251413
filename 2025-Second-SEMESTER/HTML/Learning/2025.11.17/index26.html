@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regular Expression | 정규식</title>
+</head>
+<body>
+    <!--정규식은. 문자열을 패턴으로 표현한 것.*-->
+    <!--정규식은 시험에 나올거란다 ㅎ*-->
+    <form action="https://httpbon.org/post" method="post">
+        <label>전화번호:
+            <input type="text" name="phone"
+            pattern="^010-\d{4}-\d{4}$" 
+            placeholder="010-1234-5678" required> <!-- 010-\d{4}-\d{4}$ 가 정규식의 예시-->
+        </label>
+        <input type="submit" value="제출하기">
+        <br>
+        <label>이메일:
+            <input type="email" name="email"
+            pattern="^[a-zA-Z0-9._%+_]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$">  <!-- 0^[a-zA-Z0-9._%+_]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$ 가 정규식의 예시-->
+        </label>
+        <input type="submit" value="제출하기">
+    </form>
+</body>
+</html>

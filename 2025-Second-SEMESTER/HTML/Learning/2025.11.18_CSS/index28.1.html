@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector</title>
+
+    <style>
+        * { background-color: yellow; border: 2px solid red; margin: 10px;}
+
+        html {border: 5px solid green;}
+        body {border: 5px solid pink;}
+        html, body {margin: 0;} /* 겹치는 목록은 그룹으로 묶기 */
+        #a1 {background-color: greenyellow;} /* 아이디 선택자 예시 */
+        .a2 {background-color: brown;} /* 클래스 선택자 예시 */
+
+        .center {text-align: center;}
+        </style>
+</head>
+<body>
+    <div id="a1" class="center">First Area</div> <!-- #a1 적용 -->
+    <div class="a2 center">Second Area</div> <!-- .a2 적용 -->
+    <p class="center">Third Area</p>
+</body>
+</html>

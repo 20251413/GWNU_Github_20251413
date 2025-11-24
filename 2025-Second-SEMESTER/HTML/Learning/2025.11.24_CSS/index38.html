@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute Selector</title>
+
+    <style>
+        [title] {color: green;}
+        [type="text"] {background-color: lightyellow;}
+        [class~="::highlight"] {font-weight: bold;}
+        [lang|="en"] {border: 10px solid }
+        [href^="https://"] {color: red;}
+        [src$=".png"] {border: 5px solid orange;}
+        [data-info*="code"] {background-color: greenyellow;}
+    </style>
+</head>
+<body>
+    <p title="툴팁입니다.">1. title 속성이 있는 문단</p>
+
+    <input type="text" value="텍스트 입력">
+    <input type="password" value="비밀번호 입력">
+
+    <input type="data" name="text" value="비밀번호 입력">
+
+    <div class="highlight notice">2. 강조된 문단</div>
+
+    <p lang="en-US">3. 영어로 작성된 문장</p>
+
+    <a href="https://example.com">4. 보안 링크</a>
+
+    <img src="" alt=""> <!--마저 써라-->
+</body>
+</html>

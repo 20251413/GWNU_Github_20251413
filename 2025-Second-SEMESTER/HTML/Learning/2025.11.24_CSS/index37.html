@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sibling Selecter</title>
+    <style>
+        h2 + p {border: 5px solid red;}             /* 인접 형제 선택자 */
+        h2 ~ p { background-color:  yellowgreen;}   /* 일반 형제 선택자 */
+
+        .center {text-align: center;}
+    </style>
+</head>
+<body>
+    <h2>제목</h2>
+    <p>단락1</p>
+    <p>단락2</p>
+    <div>단락3</div>
+    <p>단락4</p>
+</body>
+</html> 

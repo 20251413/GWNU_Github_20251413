@@ -1,0 +1,18 @@
+/* Desktop.css */
+
+body {
+    border: 2px solid black;
+    background-color: maroon;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    color: white;
+    font-size: 3em; /* 3배. 기본이 12px*/
+}
+
+p {
+    color: black;
+    font-size: 1.5em;
+}

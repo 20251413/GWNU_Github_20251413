@@ -1,0 +1,39 @@
+/* Mobile.css */
+
+body {
+    border: 2px solid black;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: red;
+    font-size: 2em; /* 2배. 기본이 12px*/
+}
+
+p {
+    color: black;
+    font-size: 1.2em;
+}
+
+
+/* Desktop.css */
+@media screen and(min-width: 600px) {
+    body {
+        border: 2px solid black;
+        background-color: maroon;
+        text-align: center;
+        padding: 50px;
+    }
+    
+    h1 {
+        color: white;
+        font-size: 3em; /* 3배. 기본이 12px*/
+    }
+    
+    p {
+        color: black;
+        font-size: 1.5em;
+    }
+}

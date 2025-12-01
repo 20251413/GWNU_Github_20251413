@@ -43,7 +43,7 @@ body {
 }
 
 .menu a:hover {
-    color: #5ebfcb;
+    color: #66b5f5;
 }
 
 .text_title {
@@ -79,7 +79,7 @@ body {
   text-align: center;
   display: grid;                 /* 가운데 정렬 */
   place-items: center;
-  background-image: url("../images/.jpg");
+  background-image: url("../images/moon2.jpg");
   background-size: cover;        /* 꽉 채움 */
   background-position: center;   /* 가운데 정렬 */
   background-repeat: no-repeat;  /* 반복 없음 */

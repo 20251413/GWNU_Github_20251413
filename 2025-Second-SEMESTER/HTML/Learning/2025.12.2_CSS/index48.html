@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Line-height</title>
+    <style>
+        .normal {line-height: normal;}
+        .tight {line-height: 1.2;}
+        .loose {line-height: 2;}
+        .fixed {line-height: 30px;}
+
+        .block {
+            font-size: 16px;
+            background: #f9f9f9;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+        }
+
+        .T-C {text-align: center;}
+    </style>
+</head>
+<body>
+    <div class="block normal T-C">
+        <strong>Line-height: normal</strong><br>
+        이 문장은 기본 줄간격을 사용합니다. <br>
+        줄과 줄 사이가 보통입니다.
+    </div>
+
+    <div class="block tight T-C">
+        <strong>Line-height: 1.2;</strong><br>
+        이 문장은 줄 간격이 조금 좁습니다. <br>
+        행간이 빽빽한 느낌입니다.
+    </div>
+
+    <div class="block loose T-C">
+        <strong>Line-height: 2;</strong><br>
+        이 문장은 줄 간격이 넓습니다. <br>
+        읽기 쉽게 띄워져 있습니다.
+    </div>
+
+    <div class="block fixed T-C">
+        <strong>Line-height: 30px;</strong><br>
+        이 문장은 픽셀 단위로 줄 간격을 지정했습니다. <br>
+        정확히 30px씩 떨어져 있습니다.
+    </div>
+</body>
+</html>

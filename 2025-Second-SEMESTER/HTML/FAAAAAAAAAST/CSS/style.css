@@ -20,6 +20,11 @@ header {
     background: linear-gradient(to bottom, rgba(0,0,0,0.6), transparent);
 }
 .logo { font-size: 24px; font-weight: 700; letter-spacing: 4px; }
+nav {
+    position: absolute;      /* 헤더 기준으로 위치를 자유롭게 잡음 */
+    left: 50%;               /* 왼쪽에서 50% 지점으로 이동 */
+    transform: translateX(-50%); /* 요소 크기의 절반만큼 다시 왼쪽으로 당김 -> 완벽한 중앙 */
+}
 nav ul { display: flex; list-style: none; }
 nav ul li { margin: 0 15px; }
 nav ul li a {
@@ -45,6 +50,7 @@ nav ul li a:hover { opacity: 1; text-decoration: underline; }
     scroll-snap-align: start;
     display: flex; flex-direction: column;
     justify-content: center; /* 수직 중앙 정렬 */
+    align-items: center; /*중앙 정렬*/
     padding: 0 80px;
 }
 /* -------------------------- 배경 어둡게 (글씨 잘 보이게) -------------------------- */
